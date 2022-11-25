@@ -1,0 +1,36 @@
+if 32-KEY-CARD
+
+config ZMK_KEYBOARD_NAME
+    default "The Card Keyboard"
+
+endif
+
+
+if 32-KEY-CARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "The Card Left"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+
+if 32-KEY-CARD_LEFT || 32-KEY-CARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+
+if 32-KEY-CARD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "The Card Right"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
