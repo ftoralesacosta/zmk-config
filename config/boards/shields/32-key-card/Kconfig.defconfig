@@ -24,13 +24,12 @@ config ZMK_SPLIT
 
 endif
 
+# if 32-KEY-CARD_RIGHT
 
-if 32-KEY-CARD_RIGHT
+# config ZMK_KEYBOARD_NAME
+#     default "The Card Right"
 
-config ZMK_KEYBOARD_NAME
-    default "The Card Right"
+# config ZMK_SPLIT_ROLE_CENTRAL
+#     default n
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default n
-
-endif
+# endif

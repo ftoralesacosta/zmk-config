@@ -14,3 +14,5 @@
 ---
 include:
   - board: planck_rev6
+  - board: 32-key-card
+    shield: 32-key-card
