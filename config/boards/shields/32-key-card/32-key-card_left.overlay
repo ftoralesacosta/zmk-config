@@ -1,4 +1,4 @@
-#include "card.dtsi"
+#include "32-key-card.dtsi"
 
 # &kscan0 {
 #     col-gpios
