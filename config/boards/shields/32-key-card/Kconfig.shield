@@ -1,8 +1,8 @@
-config 32-KEY-CARD
+config 32-key-card
     def_bool $(shields_list_contains,32-key-card)
 
-config 32-KEY-CARD_LEFT
+config 32-key-card_left
     def_bool $(shields_list_contains,32-key-card_left)
 
-config 32-KEY-CARD_RIGHT
+config 32-key-card_right
     def_bool $(shields_list_contains,32-key-card_right)
