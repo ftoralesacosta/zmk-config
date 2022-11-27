@@ -1,15 +1,7 @@
-if 32-KEY-CARD
-
-config ZMK_KEYBOARD_NAME
-    default "The Card Keyboard"
-
-endif
-
-
 if 32-KEY-CARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "The Card Left"
+    default "card"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
