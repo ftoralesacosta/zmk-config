@@ -3,8 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
-#include "card.dtsi"include "32-key-card.dtsi"
+#include "32-key-card.dtsi"
 
 # &kscan0 {
 #     col-gpios
