@@ -15,7 +15,9 @@
  include:
   - board: planck_rev6
   - board: nice_nano_v2
-    shield: 32-key-card
+    shield: 32-key-card_left
+  - board: nice_nano_v2
+    shield: 32-key-card_right
   - board: nice_nano_v2
     shield: cradio
   # - board: nice_nano_v2

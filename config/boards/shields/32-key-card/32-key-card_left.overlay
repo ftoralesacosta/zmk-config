@@ -1,4 +1,10 @@
-#include "32-key-card.dtsi"
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "card.dtsi"include "32-key-card.dtsi"
 
 # &kscan0 {
 #     col-gpios
