@@ -1,4 +1,4 @@
-if 32-KEY-CARD_LEFT
+if 32_KEY_CARD_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "card"
@@ -9,14 +9,14 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 
-if 32-KEY-CARD_LEFT || 32-KEY-CARD_RIGHT
+if 32_KEY_CARD_LEFT || 32_KEY_CARD_RIGHT
 
 config ZMK_SPLIT
     default y
 
 endif
 
-# if 32-KEY-CARD_RIGHT
+# if 32_KEY_CARD_RIGHT
 
 # config ZMK_KEYBOARD_NAME
 #     default "The Card Right"
