@@ -3,15 +3,4 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "32-key-card.dtsi"
-
-/* # &kscan0 { */
-/* #     col-gpios */
-/* #         = <&pro_micro 19 GPIO_ACTIVE_HIGH> // col1 in the schematic */
-/* #         , <&pro_micro 18 GPIO_ACTIVE_HIGH> // col2 in the schematic */
-/* #         , <&pro_micro 15 GPIO_ACTIVE_HIGH> // col3 in the schematic */
-/* #         , <&pro_micro 14 GPIO_ACTIVE_HIGH> // col4 in the schematic */
-/* #         , <&pro_micro 16 GPIO_ACTIVE_HIGH> // col5 in the schematic */
-/* #         , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col6 in the schematic */
-/* #         ; */
-/* # }; */
+#include "32_key_card.dtsi"
