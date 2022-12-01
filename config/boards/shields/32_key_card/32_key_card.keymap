@@ -22,7 +22,7 @@
       # &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE  &kp SPACE   &kp N     &kp M    &kp COMMA  &kp DOT   &kp BSLH
       &kp Q     &kp W     &kp E     &kp R     &kp T                          &kp P     &kp O     &kp I     &kp U     &kp Y
       &kp A     &kp S     &kp D     &kp F     &kp G                          &kp SEMI  &kp L     &kp K     &kp J     &kp H
-      &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE    &kp BLSH  &kp DOT  &kp COMMA  &kp M     &kp N     &kp SPACE
+      &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE    &kp BSLH  &kp DOT   &kp COMMA   &kp M   &kp N     &kp SPACE
             >;
         };
     };
