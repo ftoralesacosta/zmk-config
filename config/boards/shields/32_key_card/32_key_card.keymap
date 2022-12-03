@@ -17,22 +17,21 @@
 // |    A    |    S    |    D    |    F    |    G    |                     |    H    |    J    |    K    |    L    |    ;    |
 // |    Z    |    X    |    C    |    V    |    B    | SPACE |   |  SPACE  |    N    |    M    |    ,    |    .    |    /    |
             bindings = <
-     // &kp Q     &kp W     &kp E     &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O     &kp P 
-     // &kp A     &kp S     &kp D     &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L     &kp SEMI
-     // &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE  &kp SPACE   &kp N     &kp M    &kp COMMA  &kp DOT   &kp BSLH
-      &kp Q     &kp W     &kp E     &kp R     &kp T                          &kp P     &kp O     &kp I     &kp U     &kp Y
-      &kp A     &kp S     &kp D     &kp F     &kp G                          &kp SEMI  &kp L     &kp K     &kp J     &kp H
-      &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE    &kp BSLH  &kp DOT   &kp COMMA   &kp M   &kp N     &kp SPACE
-            >;
+      //&kp Q     &kp W     &kp E     &kp R     &kp T                          &kp P     &kp O     &kp I     &kp U     &kp Y
+      //&kp A     &kp S     &kp D     &kp F     &kp G                          &kp SEMI  &kp L     &kp K     &kp J     &kp H
+     // &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE    &kp BSLH  &kp DOT   &kp COMMA   &kp M   &kp N     &kp SPACE
+
+  //╭──────┬──────┬──────┬──────┬──────╮                   ╭────────┬──────────┬──────┬──────┬───────────╮
+  //│  Q   │  W   │  E   │  R   │  T   │                   │  P     │    O     │  I   │  U   │   Y       │
+     &kp Q  &kp W  &kp E  kp R   &kp T                      &kp P       &kp O    &kp I  &kp U    &kp Y 
+  //├──────┼──────┼──────┼──────┼──────┤                   ├────────┼──────────┼──────┼──────┼───────────┤
+  //│  A   │  S   │  D   │  F   │  G   │                   │    ;   │     L    │   K  │  J   │   H       │
+     &kp A  &kp S  &kp D  &kp F  &kp G                      &kp SEMI    &kp L    &kp K  &kp J    &kp H
+  //├──────┼──────┼──────┼──────┼──────┼─────────╮╭────────┼────────┼──────────┼──────┼──────┼───────────┤
+  //│  Z   │  X   │  C   │  V   │  B   │         ││        │    .   │    ,     │  M   │  N   │  SPACE    │
+     &kp Z  &kp X  &kp C  &kp V  &kp B  &kp SPACE  &kp BSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &kp SPACE
+  //╰──────┴──────┴──────┴──────┴──────┴─────────╯╰────────┴────────┴──────────┴──────┴──────┴───────────╯
+      >;
         };
     };
 };
-// ---------------------------------------------------------------------------------------------------------------------------
-// |    ,    |    .    |    P    |    Y    |    F    |                     |    G    |    C    |    R    |    L    |    /    |
-// |    A    |    O    |    E    |    U    |    I    |                     |    D    |    H    |    T    |    N    |    S    |
-// |    :    |    Q    |    J    |    K    |    X    | SPACE |   |  SPACE  |    B    |    M    |    W    |    V    |    Z    |
-//            bindings = <
-//    &kp COMMA    &kp DOT    &kp P    &kp Y    &kp F                          &kp G     &kp C     &kp R     &kp L     &kp BSLH 
-//    &kp A        &kp O      &kp E    &kp U    &kp I                          &kp D     &kp H     &kp T     &kp N     &kp S
-//    &kp SEMI     &kp Q      &kp J    &kp K    &kp X   &kp SPACE  &kp SPACE   &kp B     &kp M     &kp W     &kp V     &kp Z
-//            >;
