@@ -12,15 +12,6 @@
         compatible = "zmk,keymap";
 
         alpha {
-// ---------------------------------------------------------------------------------------------------------------------------
-// |    Q    |    W    |    E    |    R    |    T    |                     |    Y    |    U    |    I    |    O    |    P    |
-// |    A    |    S    |    D    |    F    |    G    |                     |    H    |    J    |    K    |    L    |    ;    |
-// |    Z    |    X    |    C    |    V    |    B    | SPACE |   |  SPACE  |    N    |    M    |    ,    |    .    |    /    |
-            bindings = <
-      //&kp Q     &kp W     &kp E     &kp R     &kp T                          &kp P     &kp O     &kp I     &kp U     &kp Y
-      //&kp A     &kp S     &kp D     &kp F     &kp G                          &kp SEMI  &kp L     &kp K     &kp J     &kp H
-     // &kp Z     &kp X     &kp C     &kp V     &kp B   &kp SPACE    &kp BSLH  &kp DOT   &kp COMMA   &kp M   &kp N     &kp SPACE
-
       //╭──────┬──────┬──────┬──────┬──────╮                   ╭────────┬──────────┬──────┬──────┬───────────╮
       //│  Q   │  W   │  E   │  R   │  T   │                   │  P     │    O     │  I   │  U   │   Y       │
          &kp Q  &kp W  &kp E  &kp R  &kp T                       &kp P    &kp O     &kp I  &kp U   &kp Y
