@@ -23,7 +23,7 @@
 
       //╭──────┬──────┬──────┬──────┬──────╮                   ╭────────┬──────────┬──────┬──────┬───────────╮
       //│  Q   │  W   │  E   │  R   │  T   │                   │  P     │    O     │  I   │  U   │   Y       │
-         &kp Q  &kp W  &kp E  kp R   &kp T                      &kp P       &kp O    &kp I  &kp U  &kp Y  
+         &kp Q  &kp W  &kp E  kp R   &kp T                      &kp P       &kp O    &kp I  &kp U  &kp Y
       //├──────┼──────┼──────┼──────┼──────┤                   ├────────┼──────────┼──────┼──────┼───────────┤
       //│  A   │  S   │  D   │  F   │  G   │                   │    ;   │     L    │   K  │  J   │   H       │
          &kp A  &kp S  &kp D  &kp F  &kp G                      &kp SEMI    &kp L    &kp K  &kp J    &kp H  
