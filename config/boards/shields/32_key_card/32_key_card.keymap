@@ -21,7 +21,7 @@
            &kp A  &kp S  &kp D  &kp F  &kp G                             &kp SEMI    &kp L   &kp K   &kp J    &kp H 
         //├──────┼──────┼──────┼──────┼──────┼─────────╮       ╭────────┼────────┼──────────┼──────┼──────┼──────────┤
         //│  Z   │  X   │  C   │  V   │  B   │         │       │        │    .   │    ,     │  M   │  N   │  SPACE   │
-           &kp Z  &kp X  &kp C  &kp V  &kp B  &mt LSHIFT SPACE   &kp BSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &mt num SPACE
+           &kp Z  &kp X  &kp C  &kp V  &kp B  &mt LSHIFT SPACE   &kp BSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &mt &mo num SPACE
         //╰──────┴──────┴──────┴──────┴──────┴─────────╯       ╰────────┴────────┴──────────┴──────┴──────┴──────────╯
             >;
         };
