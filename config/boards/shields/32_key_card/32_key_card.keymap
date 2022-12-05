@@ -34,7 +34,6 @@
         //├────────┼──────────┼─────────┼──────────┼─────────┤                            ├────────┼──────────┼────────┼─────────┼───────────┤
         //│  6     │  7       │  8      │  9       │  0      │                            │    <   │     >    │   (    │  )      │   ~       │
            &kp 6    &kp 7      &kp 8     &kp 9      &kp 0                                  &kp LT  &kp GT  &kp LPAR  &kp RPAR  &kp TILDE
-         // &kp 6     &kp 7    &kp 8     &kp 9      &kp A &kp A  &kp RT &kp LPAR  &kp RPAR  &kp A
         //├────────┼──────────┼─────────┼──────────┼─────────┼─────────╮         ╭────────┼────────┼──────────┼────────┼─────────┼───────────┤
         //│  +     │  -       │  *      │  /       │  =      │         │         │   /    │    .   │    ,     │  M     │  N      │  SPACE    │
            &kp PLUS  &kp MINUS  &kp STAR  &kp BSLH  &kp EQUAL  &mt LSHIFT SPACE  &kp BSLH  &kp DOT  &kp COMMA  &kp M   &kp N      &kp SPACE  
