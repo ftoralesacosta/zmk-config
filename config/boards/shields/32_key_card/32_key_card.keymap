@@ -3,9 +3,8 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define alpha 0
-#define ALPHA 1
-#define num   2
-#define misc  3
+#define num   1
+#define misc  2
 
 / {
     keymap {
@@ -21,11 +20,11 @@
            &kp A  &kp S  &kp D  &kp F  &kp G                             &kp SEMI    &kp L   &kp K   &kp J    &kp H 
         //├──────┼──────┼──────┼──────┼──────┼─────────╮       ╭────────┼────────┼──────────┼──────┼──────┼──────────┤
         //│  Z   │  X   │  C   │  V   │  B   │         │       │        │    .   │    ,     │  M   │  N   │  SPACE   │
-           &kp Z  &kp X  &kp C  &kp V  &kp B  &mt LSHIFT SPACE   &kp BSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &lt num SPACE
+           &kp Z  &kp X  &kp C  &kp V  &kp B  &mt LSHIFT SPACE   &kp BSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &lt 1 SPACE
         //╰──────┴──────┴──────┴──────┴──────┴─────────╯       ╰────────┴────────┴──────────┴──────┴──────┴──────────╯
             >;
         };
-
+//&td &caps_word. Tap dance caps word for double tap. Hold for shift. Tap once for space?
         num {
           bindings = <
         //╭────────┬──────────┬─────────┬──────────┬─────────╮                            ╭────────┬──────────┬────────┬─────────┬───────────╮
