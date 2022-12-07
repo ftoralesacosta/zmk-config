@@ -6,11 +6,19 @@
 #define num   1
 #define misc  2
 
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
-        alpha {
+        default_layer {
           bindings = <
         //╭──────┬──────┬──────┬──────┬──────╮                          ╭────────┬──────────┬──────┬──────┬──────────╮
         //│  Q   │  W   │  E   │  R   │  T   │                          │  P     │    O     │  I   │  U   │   Y      │
@@ -24,8 +32,7 @@
         //╰──────┴──────┴──────┴──────┴──────┴─────────╯       ╰────────┴────────┴──────────┴──────┴──────┴──────────╯
             >;
         };
-//&td &caps_word. Tap dance caps word for double tap. Hold for shift. Tap once for space?
-        num {
+        right_layer {
           bindings = <
         //╭────────┬──────────┬─────────┬──────────┬─────────╮                            ╭────────┬──────────┬────────┬─────────┬───────────╮
         //│  1     │  2       │  3      │  4       │  5      │                            │  {     │    }     │  [     │  ]      │   |       │
@@ -41,3 +48,4 @@
         };
     };
 };
+//&td &caps_word. Tap dance caps word for double tap. Hold for shift. Tap once for space?
