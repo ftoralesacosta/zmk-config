@@ -37,7 +37,7 @@
       bindings = <
         //╭──────┬──────┬──────┬──────┬──────╮                          ╭────────┬──────────┬──────┬──────┬──────────╮
         //│  '   │  ,   │  .   │  p   │  y   │                          │  l     │    r     │  c   │  g   │   f      │
-         &kp SQW  &kp COMMA  &kp DOT  &kp P  &kp Y                       &kp L    &kp R     &kp C  &kp G    &kp F
+         &kp SINGLE_QUOTE  &kp COMMA  &kp DOT  &kp P  &kp Y                       &kp L    &kp R   &kp C  &kp G    &kp F
         //├──────┼──────┼──────┼──────┼──────┤                          ├────────┼──────────┼──────┼──────┼──────────┤
         //│  a   │  o   │  e   │  u   │  i   │                          │    s   │     n    │   t  │  h   │   d      │
            &kp A  &kp O  &kp E  &kp U  &kp I                             &kp S    &kp N   &kp T   &kp H    &kp D 
