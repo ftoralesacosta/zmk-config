@@ -36,14 +36,14 @@
     default_layer {
       bindings = <
         //╭──────┬──────┬──────┬──────┬──────╮                          ╭────────┬──────────┬──────┬──────┬──────────╮
-        //│  Q   │  W   │  E   │  R   │  T   │                          │  P     │    O     │  I   │  U   │   Y      │
-           &kp Q  &kp W  &kp E  &kp R  &kp T                              &kp P    &kp O     &kp I  &kp U    &kp Y
+        //│  '   │  ,   │  .   │  p   │  y   │                          │  l     │    r     │  c   │  g   │   f      │
+         &kp SQW  &kp COMMA  &kp DOT  &kp P  &kp Y                       &kp L    &kp R     &kp C  &kp G    &kp F
         //├──────┼──────┼──────┼──────┼──────┤                          ├────────┼──────────┼──────┼──────┼──────────┤
-        //│  A   │  S   │  D   │  F   │  G   │                          │    ;   │     L    │   K  │  J   │   H      │
-           &kp A  &kp S  &kp D  &kp F  &kp G                             &kp SEMI    &kp L   &kp K   &kp J    &kp H 
+        //│  a   │  o   │  e   │  u   │  i   │                          │    s   │     n    │   t  │  h   │   d      │
+           &kp A  &kp O  &kp E  &kp U  &kp I                             &kp S    &kp N   &kp T   &kp H    &kp D 
         //├──────┼──────┼──────┼──────┼──────┼─────────╮       ╭────────┼────────┼──────────┼──────┼──────┼──────────┤
-        //│  Z   │  X   │  C   │  V   │  B   │         │       │        │    .   │    ,     │  M   │  N   │  SPACE   │
-           &kp Z  &kp X  &kp C  &kp V  &kp B  &lt 2 SPACE      &kp BSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &lt 1 SPACE
+        //│  ;   │  q   │  j   │  k   │  x   │         │       │   z    │    v   │    w     │  m   │  b   │  SPACE   │
+         &kp SEMI  &kp Q  &kp C  &kp K  &kp X  &lt 2 SPACE      &kp Z     &kp V  &kp w       &kp M  &kp B  &lt 1 SPACE
         //╰──────┴──────┴──────┴──────┴──────┴─────────╯       ╰────────┴────────┴──────────┴──────┴──────┴──────────╯
         >;
     };
@@ -51,10 +51,10 @@
       bindings = <
         //╭────────┬──────────┬─────────┬──────────┬─────────╮                            ╭────────┬──────────┬────────┬─────────┬───────────╮
         //│  1     │  2       │  3      │  4       │  5      │                            │  {     │    }     │  [     │  ]      │   |       │
-            &kp NUMBER_1   &kp NUMBER_2     &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                                  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp PIPE
+          &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N4  &kp KP_N5                           &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp PIPE
         //├────────┼──────────┼─────────┼──────────┼─────────┤                            ├────────┼──────────┼────────┼─────────┼───────────┤
         //│  6     │  7       │  8      │  9       │  0      │                            │    <   │     >    │   (    │  )      │   ~       │
-            &kp NUMBER_6   &kp NUMBER_7     &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0                                  &kp LT  &kp GT     &kp LPAR  &kp RPAR  &kp TILDE
+          &kp KP_N6  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_N0                           &kp LT     &kp GT    &kp LPAR   &kp RPAR  &kp TILDE
         //├────────┼──────────┼─────────┼──────────┼─────────┼─────────╮         ╭────────┼────────┼──────────┼────────┼─────────┼───────────┤
         //│  +     │  -       │  *      │  /       │  =      │         │         │   /    │    .   │    ,     │  ,     │  .      │  SPACE    │
            &kp PLUS  &kp MINUS  &kp STAR  &kp BSLH  &kp EQUAL  &lt 2 SPACE       &kp BSLH  &kp DOT  &kp COMMA  &kp COMMA  &kp DOT  &lt 1 SPACE
