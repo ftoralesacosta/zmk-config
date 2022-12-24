@@ -65,10 +65,10 @@
       bindings = <
         //╭────────┬──────────┬─────────┬──────────┬─────────╮                            ╭────────┬──────────┬────────┬─────────┬───────────╮
         //│  1     │  2       │  3      │  4       │  5      │                            │  {     │    }     │  [     │  ]      │   |       │
-            &kp 1    &kp 2      &kp 3     &kp 4      &kp 5                                  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp PIPE
+            &kp KP_N1    &kp KP_N2      &kp KP_N3     &kp KP_N4      &kp KP_N5                                  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp PIPE
         //├────────┼──────────┼─────────┼──────────┼─────────┤                            ├────────┼──────────┼────────┼─────────┼───────────┤
         //│  6     │  7       │  8      │  9       │  0      │                            │    <   │     >    │   (    │  )      │   ~       │
-            &kp 6    &kp 7      &kp 8     &kp 9      &kp 0                                  &kp LT  &kp GT     &kp LPAR  &kp RPAR  &kp TILDE
+            &kp KP_N6    &kp KP_N7      &kp KP_N8     &kp KP_N9      &kp KP_N0                                  &kp LT  &kp GT     &kp LPAR  &kp RPAR  &kp TILDE
         //├────────┼──────────┼─────────┼──────────┼─────────┼─────────╮         ╭────────┼────────┼──────────┼────────┼─────────┼───────────┤
         //│  +     │  -       │  *      │  /       │  =      │         │         │   /    │    .   │    ,     │  ,     │  .      │  SPACE    │
            &kp PLUS  &kp MINUS  &kp STAR  &kp BSLH  &kp EQUAL  &lt 2 SPACE       &kp BSLH  &kp DOT  &kp COMMA  &kp COMMA  &kp DOT  &lt 1 SPACE
