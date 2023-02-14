@@ -1,0 +1,12 @@
+file_format: "1"
+id: bonnie_cradio
+name: bonnie_cradio
+type: shield
+url: https://github.com/davidphilipbarr/Sweep
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - bonnie_cradio_left
+  - bonnie_cradio_right
