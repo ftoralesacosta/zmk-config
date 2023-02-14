@@ -24,3 +24,8 @@
     shield: cradio_left
   - board: nice_nano_v2
     shield: cradio_right
+
+  - board: nice_nano_v2
+    shield: bonnie_cradio_left
+  - board: nice_nano_v2
+    shield: bonnie_cradio_right
